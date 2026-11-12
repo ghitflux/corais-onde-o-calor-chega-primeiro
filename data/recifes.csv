@@ -1,0 +1,39 @@
+slug,nome,regiao,grupo,lat,lon,fonte,referencia,lat_crw,lon_crw,km_crw,mmm_noaa,lat_oisst,lon_oisst,km_oisst
+lizard,Lizard Island,"Grande Barreira de Corais, norte",Pacífico oeste,-14.669,145.459,Wikipedia (en): Lizard Island,True,-14.675,145.475,1.8,28.58,-14.625,145.375,10.3
+davies,Davies Reef,"Grande Barreira de Corais, centro",Pacífico oeste,-18.85,147.65,Wikidata: Q21913661,False,-18.875,147.625,3.8,28.4,,,
+heron,Heron Island,"Grande Barreira de Corais, sul",Pacífico oeste,-23.442,151.914,Wikidata: Q2719889,False,-23.425,151.925,2.2,27.12,,,
+osprey,Osprey Reef,Mar de Coral,Pacífico oeste,-13.908,146.615,Wikipedia (en): Osprey Reef,False,-13.925,146.625,2.2,28.69,,,
+lord_howe,Lord Howe Island,Mar da Tasmânia (recife mais ao sul do mundo),Pacífico oeste,-31.554,159.085,Wikipedia (en): Lord Howe Island,False,-31.575,159.075,2.5,24.05,,,
+raja_ampat,Raja Ampat,"Triângulo de Coral, Indonésia",Pacífico oeste,-0.233,130.508,Wikipedia (en): Raja Ampat Islands,False,-0.275,130.525,5.0,28.97,,,
+tubbataha,Tubbataha,"Triângulo de Coral, Filipinas",Pacífico oeste,8.953,119.868,Wikipedia (en): Tubbataha Reef,False,8.975,119.875,2.6,29.54,,,
+kimbe,Kimbe Bay,"Triângulo de Coral, Papua-Nova Guiné",Pacífico oeste,-5.167,150.5,Wikipedia (en): Kimbe Bay,False,-5.175,150.475,2.9,29.57,,,
+palau,Rock Islands,Palau,Pacífico oeste,7.25,134.35,Wikipedia (en): Rock Islands,False,7.225,134.325,3.9,29.22,,,
+ishigaki,Ishigaki (lagoa Sekisei),"Japão, Ryukyu",Pacífico oeste,24.44,124.22,Wikipedia (en): Ishigaki Island,False,24.425,124.225,1.7,29.05,,,
+fiji,Great Astrolabe Reef,Fiji,Pacífico oeste,-18.862,178.498,Wikipedia (en): Great Astrolabe Reef,False,-18.875,178.475,2.8,28.18,,,
+ningaloo,Ningaloo (Coral Bay),Austrália Ocidental,Índico,-23.145,113.776,"Wikipedia (en): Coral Bay, Western Australia",False,-23.125,113.775,2.2,26.78,,,
+scott,Scott Reef,"Austrália Ocidental, mar aberto",Índico,-14.05,121.767,Wikipedia (en): Scott and Seringapatam Reefs,False,-14.075,121.775,2.9,29.69,,,
+maldivas,Atol de Kaafu (Malé),Maldivas,Índico,4.417,73.5,Wikipedia (en): Kaafu Atoll,True,4.425,73.475,2.9,29.68,4.375,73.375,14.6
+chagos,Peros Banhos,Arquipélago de Chagos,Índico,-5.333,71.85,Wikipedia (en): Peros Banhos,False,-5.325,71.825,2.9,29.06,,,
+mafia,Ilha de Mafia,"Leste da África, Tanzânia",Índico,-7.85,39.783,Wikipedia (en): Mafia Island,False,-7.825,39.775,2.9,28.88,,,
+aldabra,Aldabra,"Seychelles, atol remoto",Índico,-9.417,46.35,Wikipedia (en): Aldabra,False,-9.425,46.325,2.9,28.86,,,
+nosy_be,Nosy Be,"Madagascar, noroeste",Índico,-13.315,48.268,Wikipedia (en): Nosy Be,False,-13.325,48.325,6.3,29.21,,,
+toliara,Toliara,"Madagascar, sudoeste",Índico,-23.35,43.667,Wikipedia (en): Toliara,False,-23.375,43.675,2.9,29.0,,,
+ras_mohammed,Ras Mohammed,"Mar Vermelho, norte",Mar Vermelho e golfo Pérsico,27.769,34.21,Wikipedia (en): Ras Muhammad National Park,False,27.775,34.225,1.6,28.24,,,
+farasan,Ilhas Farasan,"Mar Vermelho, sul",Mar Vermelho e golfo Pérsico,16.8,41.85,Wikipedia (en): Farasan Islands,False,16.825,41.825,3.8,31.56,,,
+sir_abu_nuayr,Sir Abu Nu'ayr,Golfo Pérsico,Mar Vermelho e golfo Pérsico,25.232,54.222,Wikipedia (en): Sir Abu Nu'ayr,True,25.225,54.225,0.8,33.66,25.125,54.125,15.4
+kaneohe,Baía de Kāneʻohe,Havaí,Pacífico central e leste,21.463,-157.81,Wikipedia (en): Kāneʻohe Bay,False,21.475,-157.825,2.0,26.87,,,
+midway,Atol de Midway,"Havaí, ilhas do noroeste",Pacífico central e leste,28.208,-177.35,Wikipedia (en): Midway Atoll,False,28.225,-177.375,3.1,26.75,,,
+kiritimati,Kiritimati,"Kiribati, Pacífico equatorial",Pacífico central e leste,1.85,-157.4,Wikipedia (en): Kiritimati,True,1.825,-157.475,8.8,27.97,1.875,-157.375,3.9
+moorea,Moorea,Polinésia Francesa,Pacífico central e leste,-17.535,-149.835,Wikipedia (en): Moʼorea,False,-17.525,-149.875,4.4,28.79,,,
+galapagos,Ilha Darwin,Galápagos,Pacífico central e leste,1.678,-92.003,Wikipedia (en): Darwin Island,False,1.675,-92.025,2.5,27.11,,,
+cocos,Ilha do Coco,"Pacífico leste, Costa Rica",Pacífico central e leste,5.528,-87.061,Wikipedia (en): Cocos Island,False,5.525,-87.075,1.6,28.98,,,
+clipperton,Clipperton,"Pacífico leste, atol remoto",Pacífico central e leste,10.3,-109.217,Wikipedia (en): Clipperton Island,False,10.325,-109.225,2.9,28.8,,,
+florida_keys,Looe Key,Florida Keys,Caribe e Atlântico Norte,24.549,-81.406,Wikipedia (en): Looe Key,True,24.525,-81.425,3.3,29.64,24.625,-81.375,9.0
+belize,Glover's Reef,Belize,Caribe e Atlântico Norte,16.823,-87.791,Wikipedia (en): Glover's Reef,False,16.825,-87.775,1.7,28.79,,,
+curacao,Curaçao,Caribe sul,Caribe e Atlântico Norte,12.2,-69.0,Wikipedia (en): Curaçao,False,12.175,-69.025,3.9,28.09,,,
+bermudas,Bermudas,Atlântico Norte (recife mais ao norte do Atlântico),Caribe e Atlântico Norte,32.32,-64.74,Wikipedia (en): Bermuda,False,32.325,-64.725,1.5,27.31,,,
+manuel_luis,Parcel de Manuel Luís,"Brasil, Maranhão",Atlântico Sul,-0.913,-44.32,Wikipedia (en): Parcel de Manuel Luís Marine State Park,False,-0.925,-44.325,1.4,27.87,,,
+rocas,Atol das Rocas,"Brasil, atol oceânico",Atlântico Sul,-3.867,-33.817,Wikipedia (en): Rocas Atoll,False,-3.875,-33.825,1.3,28.26,,,
+noronha,Fernando de Noronha,"Brasil, ilha oceânica",Atlântico Sul,-3.855,-32.425,Wikipedia (en): Fernando de Noronha,False,-3.875,-32.425,2.2,28.32,,,
+abrolhos,Abrolhos,"Brasil, Bahia",Atlântico Sul,-17.963,-38.703,Wikipedia (en): Abrolhos Archipelago,True,-17.975,-38.725,2.7,26.94,-17.875,-38.625,12.8
+trindade,Trindade,"Brasil, ilha oceânica",Atlântico Sul,-20.525,-29.325,Wikipedia (en): Trindade and Martim Vaz,False,-20.525,-29.325,0.0,27.77,,,

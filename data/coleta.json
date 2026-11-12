@@ -1,0 +1,94 @@
+{
+  "coletado_em": "2026-11-12",
+  "recifes": 38,
+  "recifes_de_referencia": [
+    "lizard",
+    "maldivas",
+    "sir_abu_nuayr",
+    "kiritimati",
+    "florida_keys",
+    "abrolhos"
+  ],
+  "crw": {
+    "servidor": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap",
+    "conjuntos": [
+      "CRW_sst_v3_1",
+      "CRW_dhw_v1_0",
+      "CRW_hs_v1_0",
+      "CRW_sst_v3_1_monthly"
+    ],
+    "semanal_sst": {
+      "inicio": "1985-01-06",
+      "fim": "2026-11-08",
+      "datas": 2184,
+      "lacunas": 32
+    },
+    "semanal_dhw": {
+      "inicio": "1985-04-07",
+      "fim": "2026-11-08",
+      "datas": 2171,
+      "lacunas": 64
+    },
+    "mensal": {
+      "inicio": "1985-01-31",
+      "fim": "2013-01-31",
+      "datas": 337,
+      "lacunas": 0
+    },
+    "diario_sst": {
+      "inicio": "1985-01-01",
+      "fim": "2026-11-10",
+      "datas": 15284,
+      "lacunas": 0
+    },
+    "diario_dhw": {
+      "inicio": "1985-04-01",
+      "fim": "2026-11-10",
+      "datas": 15183,
+      "lacunas": 0
+    },
+    "amplitude_maxima_do_mmm_lido": 0.0,
+    "dias_faltando_no_eixo_de_tempo": 5,
+    "maior_desvio_da_grade_semanal_dias": 3
+  },
+  "oisst": {
+    "servidor": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/ncdcOisst21Agg_LonPM180",
+    "diario": {
+      "inicio": "1981-09-01",
+      "fim": "2026-10-27",
+      "datas": 15297,
+      "lacunas": 0
+    }
+  },
+  "nino34": {
+    "arquivo": "wksst9120.for",
+    "bytes": 148731,
+    "sha256": "7f8c7c4e231b178cb017d0c7b9364a1d3b12c8830e53c62ea1150dfb7b57ee9d",
+    "url": "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for",
+    "semanas": 2358,
+    "inicio": "1981-09-02",
+    "fim": "2026-11-04",
+    "datas_da_caixa_do_oisst": 547
+  },
+  "branqueamento": {
+    "arquivo": "global_bleaching_environmental.csv",
+    "bytes": 16772400,
+    "sha256": "78cc014b1e7887f26f4c44a40d4d9213212f3c6217541c6a1b69e723b61bfacb",
+    "url": "https://datadocs.bco-dmo.org/dataset/773466/file/B11vA82u7y2Owp/global_bleaching_environmental.csv",
+    "raio_km": 100.0,
+    "funil": {
+      "linhas_na_base": 41361,
+      "com_percentual_e_data": 34515,
+      "levantamentos_unicos": 17363,
+      "levantamentos_perto_dos_recifes": 2860,
+      "linhas_do_extrato": 1351,
+      "recifes_com_levantamento": 32
+    }
+  },
+  "costa": {
+    "arquivo": "ne_110m_coastline.geojson",
+    "bytes": 139907,
+    "sha256": "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_coastline.geojson"
+  }
+}
