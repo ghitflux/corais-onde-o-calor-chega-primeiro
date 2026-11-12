@@ -1,5 +1,9 @@
 """A análise inteira roda sobre uma base sintética em memória, com respostas conhecidas onde dá."""
 
+import json
+import math
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import pytest
@@ -214,3 +218,41 @@ def test_bloco_do_site_segue_o_formato(base, preparado):
         assert len(serie["pontos"]) <= 80 and serie["papel"] in ("principal", "base", "alternativa", "neutro")
         assert all(0 <= y <= 1 for _, y in serie["pontos"])
     assert len(grafico["faixa"]["inferior"]) == len(grafico["series"][grafico["faixa"]["serie"]]["pontos"])
+    _conferir_graficos_extras(bloco["graficos_extras"])
+
+
+def _conferir_graficos_extras(extras: list[dict]) -> None:
+    """Forma que o site espera de cada gráfico extra: tipo, limites, três idiomas e a frase de leitura."""
+    idiomas = {"pt", "en", "es"}
+    assert 3 <= len(extras) <= 5
+    assert {g["tipo"] for g in extras} <= {"linhas", "barras", "pontos"}
+    for g in extras:
+        for chave in ("titulo", "eixo_x", "eixo_y", "leitura"):
+            assert set(g[chave]) == idiomas and all(isinstance(t, str) and t for t in g[chave].values())
+        assert all(len(t) <= 90 for t in g["titulo"].values())
+        assert g["formato_x"] in ("numero", "percentual", "data") and g["formato_y"] in ("numero", "percentual", "moeda")
+        assert 1 <= len(g["series"]) <= 4
+        assert "faixa" not in g or g["tipo"] == "linhas"
+        for serie in g["series"]:
+            assert set(serie["nome"]) == idiomas and serie["papel"] in ("principal", "base", "alternativa", "neutro")
+            pontos = serie["pontos"]
+            assert 1 <= len(pontos) <= (300 if g["tipo"] == "pontos" else 80)
+            assert all(len(p) == 2 and isinstance(p[1], (int, float)) and math.isfinite(p[1]) for p in pontos)
+            if g["tipo"] == "barras":
+                assert all(isinstance(p[0], str) for p in pontos)
+                if "rotulos" in serie:
+                    assert set(serie["rotulos"]) == idiomas and all(len(v) == len(pontos) for v in serie["rotulos"].values())
+            else:
+                assert all(isinstance(p[0], (int, float)) and math.isfinite(p[0]) for p in pontos)
+            if g["formato_y"] == "percentual":
+                assert all(0 <= p[1] <= 1 for p in pontos)
+
+
+def test_graficos_extras_do_resultado_gravado_seguem_o_formato():
+    """O bloco gravado em reports/resultados.json (o que o site lê) passa pela mesma conferência."""
+    arquivo = Path(__file__).resolve().parents[1] / "reports" / "resultados.json"
+    if not arquivo.exists():
+        pytest.skip("reports/resultados.json ainda não foi gerado")
+    bloco = json.loads(arquivo.read_text(encoding="utf-8"))["para_o_site"]
+    _conferir_graficos_extras(bloco["graficos_extras"])
+    assert [g["tipo"] for g in bloco["graficos_extras"]].count("pontos") == 1

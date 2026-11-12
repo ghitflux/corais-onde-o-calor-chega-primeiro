@@ -14991,6 +14991,2565 @@
      ]
     ]
    }
-  }
+  },
+  "graficos_extras": [
+   {
+    "tipo": "barras",
+    "titulo": {
+     "pt": "O intervalo entre anos de alerta encolheu nas 6 regiões",
+     "en": "The gap between alert years shrank in all 6 regions",
+     "es": "El intervalo entre años de alerta se acortó en las 6 regiones"
+    },
+    "eixo_x": {
+     "pt": "Região",
+     "en": "Region",
+     "es": "Región"
+    },
+    "eixo_y": {
+     "pt": "Anos entre dois anos de alerta",
+     "en": "Years between two alert years",
+     "es": "Años entre dos años de alerta"
+    },
+    "formato_x": "numero",
+    "formato_y": "numero",
+    "series": [
+     {
+      "nome": {
+       "pt": "1985-2004",
+       "en": "1985-2004",
+       "es": "1985-2004"
+      },
+      "papel": "base",
+      "pontos": [
+       [
+        "Pacífico oeste",
+        15.1
+       ],
+       [
+        "Índico",
+        11.7
+       ],
+       [
+        "Mar Vermelho e golfo Pérsico",
+        20.0
+       ],
+       [
+        "Pacífico central e leste",
+        8.0
+       ],
+       [
+        "Caribe e Atlântico Norte",
+        20.0
+       ],
+       [
+        "Atlântico Sul",
+        95.0
+       ],
+       [
+        "todos",
+        14.1
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "Pacífico oeste",
+        "Índico",
+        "Mar Vermelho e golfo Pérsico",
+        "Pacífico central e leste",
+        "Caribe e Atlântico Norte",
+        "Atlântico Sul",
+        "Todos os recifes"
+       ],
+       "en": [
+        "Western Pacific",
+        "Indian Ocean",
+        "Red Sea and Persian Gulf",
+        "Central and eastern Pacific",
+        "Caribbean and North Atlantic",
+        "South Atlantic",
+        "All reefs"
+       ],
+       "es": [
+        "Pacífico occidental",
+        "Índico",
+        "Mar Rojo y golfo Pérsico",
+        "Pacífico central y oriental",
+        "Caribe y Atlántico Norte",
+        "Atlántico Sur",
+        "Todos los arrecifes"
+       ]
+      }
+     },
+     {
+      "nome": {
+       "pt": "2005-2024",
+       "en": "2005-2024",
+       "es": "2005-2024"
+      },
+      "papel": "principal",
+      "pontos": [
+       [
+        "Pacífico oeste",
+        3.4
+       ],
+       [
+        "Índico",
+        5.2
+       ],
+       [
+        "Mar Vermelho e golfo Pérsico",
+        3.3
+       ],
+       [
+        "Pacífico central e leste",
+        5.4
+       ],
+       [
+        "Caribe e Atlântico Norte",
+        2.0
+       ],
+       [
+        "Atlântico Sul",
+        5.6
+       ],
+       [
+        "todos",
+        3.9
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "Pacífico oeste",
+        "Índico",
+        "Mar Vermelho e golfo Pérsico",
+        "Pacífico central e leste",
+        "Caribe e Atlântico Norte",
+        "Atlântico Sul",
+        "Todos os recifes"
+       ],
+       "en": [
+        "Western Pacific",
+        "Indian Ocean",
+        "Red Sea and Persian Gulf",
+        "Central and eastern Pacific",
+        "Caribbean and North Atlantic",
+        "South Atlantic",
+        "All reefs"
+       ],
+       "es": [
+        "Pacífico occidental",
+        "Índico",
+        "Mar Rojo y golfo Pérsico",
+        "Pacífico central y oriental",
+        "Caribe y Atlántico Norte",
+        "Atlántico Sur",
+        "Todos los arrecifes"
+       ]
+      }
+     }
+    ],
+    "leitura": {
+     "pt": "Anos, em média, entre dois anos com DHW de 4 °C-semana ou mais por recife: no conjunto, de 14,1 para 3,9; barra menor é alerta mais frequente.",
+     "en": "Average years between two years with DHW of 4 °C-weeks or more per reef: overall, from 14.1 to 3.9; a shorter bar means more frequent alerts.",
+     "es": "Años, en promedio, entre dos años con DHW de 4 °C-semana o más por arrecife: en conjunto, de 14,1 a 3,9; una barra más corta es alerta más frecuente."
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": {
+     "pt": "Contra a persistência, o modelo ganha com 4, empata com 8, perde com 12 semanas",
+     "en": "Against persistence, the model wins at 4, ties at 8, loses at 12 weeks",
+     "es": "Frente a la persistencia, el modelo gana con 4, empata con 8, pierde con 12 semanas"
+    },
+    "eixo_x": {
+     "pt": "Antecedência",
+     "en": "Lead time",
+     "es": "Antelación"
+    },
+    "eixo_y": {
+     "pt": "Erro de Brier no teste (menor é melhor)",
+     "en": "Brier score on the test set (lower is better)",
+     "es": "Error de Brier en la prueba (menor es mejor)"
+    },
+    "formato_x": "numero",
+    "formato_y": "numero",
+    "series": [
+     {
+      "nome": {
+       "pt": "Climatologia",
+       "en": "Climatology",
+       "es": "Climatología"
+      },
+      "papel": "neutro",
+      "pontos": [
+       [
+        "4 semanas",
+        0.1328
+       ],
+       [
+        "8 semanas",
+        0.1326
+       ],
+       [
+        "12 semanas",
+        0.1322
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ],
+       "en": [
+        "4 weeks",
+        "8 weeks",
+        "12 weeks"
+       ],
+       "es": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ]
+      }
+     },
+     {
+      "nome": {
+       "pt": "Persistência calibrada",
+       "en": "Calibrated persistence",
+       "es": "Persistencia calibrada"
+      },
+      "papel": "base",
+      "pontos": [
+       [
+        "4 semanas",
+        0.054
+       ],
+       [
+        "8 semanas",
+        0.0893
+       ],
+       [
+        "12 semanas",
+        0.1133
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ],
+       "en": [
+        "4 weeks",
+        "8 weeks",
+        "12 weeks"
+       ],
+       "es": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ]
+      }
+     },
+     {
+      "nome": {
+       "pt": "Modelo simples",
+       "en": "Simple model",
+       "es": "Modelo simple"
+      },
+      "papel": "principal",
+      "pontos": [
+       [
+        "4 semanas",
+        0.0459
+       ],
+       [
+        "8 semanas",
+        0.0878
+       ],
+       [
+        "12 semanas",
+        0.1186
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ],
+       "en": [
+        "4 weeks",
+        "8 weeks",
+        "12 weeks"
+       ],
+       "es": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ]
+      }
+     },
+     {
+      "nome": {
+       "pt": "Modelo + projeção",
+       "en": "Model + projection",
+       "es": "Modelo + proyección"
+      },
+      "papel": "alternativa",
+      "pontos": [
+       [
+        "4 semanas",
+        0.0396
+       ],
+       [
+        "8 semanas",
+        0.0781
+       ],
+       [
+        "12 semanas",
+        0.1093
+       ]
+      ],
+      "rotulos": {
+       "pt": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ],
+       "en": [
+        "4 weeks",
+        "8 weeks",
+        "12 weeks"
+       ],
+       "es": [
+        "4 semanas",
+        "8 semanas",
+        "12 semanas"
+       ]
+      }
+     }
+    ],
+    "leitura": {
+     "pt": "Erro ao prever se o DHW estará em 4 ou mais na data-alvo, com treino até 2010 e teste depois: quanto mais longe, menos o modelo se distingue de supor que a anomalia de hoje continua.",
+     "en": "Error when predicting whether DHW will be at 4 or more on the target date, trained to 2010 and tested afterwards: the longer the lead, the less the model differs from assuming today's anomaly persists.",
+     "es": "Error al predecir si el DHW estará en 4 o más en la fecha objetivo, con entrenamiento hasta 2010 y prueba después: cuanto más lejos, menos se distingue el modelo de suponer que la anomalía de hoy continúa."
+    }
+   },
+   {
+    "tipo": "pontos",
+    "titulo": {
+     "pt": "O DHW refeito bate com o oficial (erro de 0,04); com outra temperatura, 1,31",
+     "en": "The rebuilt DHW matches the official one (error 0.04); with other SST data, 1.31",
+     "es": "El DHW rehecho coincide con el oficial (error de 0,04); con otra temperatura, 1,31"
+    },
+    "eixo_x": {
+     "pt": "DHW máximo do ano, oficial (°C-semana)",
+     "en": "Annual maximum DHW, official (°C-weeks)",
+     "es": "DHW máximo del año, oficial (°C-semana)"
+    },
+    "eixo_y": {
+     "pt": "DHW máximo do ano, refeito (°C-semana)",
+     "en": "Annual maximum DHW, rebuilt (°C-weeks)",
+     "es": "DHW máximo del año, rehecho (°C-semana)"
+    },
+    "formato_x": "numero",
+    "formato_y": "numero",
+    "series": [
+     {
+      "nome": {
+       "pt": "Mesma temperatura (CoralTemp, 5 km)",
+       "en": "Same temperature (CoralTemp, 5 km)",
+       "es": "Misma temperatura (CoralTemp, 5 km)"
+      },
+      "papel": "principal",
+      "pontos": [
+       [
+        0.15,
+        0.15
+       ],
+       [
+        2.54,
+        2.55
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.25,
+        1.26
+       ],
+       [
+        0.54,
+        0.54
+       ],
+       [
+        2.04,
+        2.04
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        3.63,
+        3.65
+       ],
+       [
+        0.96,
+        0.97
+       ],
+       [
+        1.76,
+        1.76
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.14,
+        1.14
+       ],
+       [
+        0.46,
+        0.46
+       ],
+       [
+        0.15,
+        0.15
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.62,
+        1.62
+       ],
+       [
+        0.93,
+        0.94
+       ],
+       [
+        2.5,
+        2.51
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.14,
+        1.14
+       ],
+       [
+        0.82,
+        0.83
+       ],
+       [
+        1.69,
+        1.7
+       ],
+       [
+        1.99,
+        2.0
+       ],
+       [
+        1.89,
+        1.9
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.32,
+        1.32
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.69,
+        1.7
+       ],
+       [
+        8.61,
+        8.64
+       ],
+       [
+        8.66,
+        8.7
+       ],
+       [
+        0.33,
+        0.34
+       ],
+       [
+        0.47,
+        0.47
+       ],
+       [
+        5.98,
+        6.01
+       ],
+       [
+        4.13,
+        4.15
+       ],
+       [
+        3.88,
+        3.9
+       ],
+       [
+        1.48,
+        1.49
+       ],
+       [
+        5.93,
+        5.96
+       ],
+       [
+        6.57,
+        6.6
+       ],
+       [
+        4.85,
+        4.87
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.22,
+        1.22
+       ],
+       [
+        3.3,
+        3.29
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.84,
+        1.83
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        5.84,
+        5.83
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.01,
+        0.86
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.16
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.45,
+        0.45
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.46,
+        0.46
+       ],
+       [
+        6.64,
+        6.49
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.15,
+        0.3
+       ],
+       [
+        0.43,
+        0.29
+       ],
+       [
+        0.15,
+        0.15
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        3.59,
+        3.44
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.66,
+        1.65
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        2.36,
+        2.21
+       ],
+       [
+        1.83,
+        1.82
+       ],
+       [
+        2.45,
+        2.44
+       ],
+       [
+        2.48,
+        2.47
+       ],
+       [
+        0.34,
+        0.34
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.32,
+        0.31
+       ],
+       [
+        0.17,
+        0.17
+       ],
+       [
+        0.14,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.43,
+        1.42
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        2.28,
+        2.27
+       ],
+       [
+        1.15,
+        1.15
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.17,
+        0.17
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.16,
+        0.16
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.44,
+        0.3
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.75,
+        0.74
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.29
+       ],
+       [
+        0.16,
+        0.16
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.16,
+        0.16
+       ],
+       [
+        3.05,
+        2.89
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.14,
+        1.0
+       ],
+       [
+        1.53,
+        1.38
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        7.59,
+        7.56
+       ],
+       [
+        1.03,
+        1.03
+       ],
+       [
+        2.24,
+        2.1
+       ],
+       [
+        19.18,
+        19.16
+       ],
+       [
+        5.03,
+        4.88
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.64,
+        0.64
+       ],
+       [
+        3.08,
+        2.94
+       ],
+       [
+        10.76,
+        10.6
+       ],
+       [
+        2.62,
+        2.62
+       ],
+       [
+        2.44,
+        2.44
+       ],
+       [
+        4.39,
+        4.39
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        14.48,
+        14.33
+       ],
+       [
+        12.77,
+        12.75
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        10.12,
+        10.11
+       ],
+       [
+        10.56,
+        10.55
+       ],
+       [
+        0.45,
+        0.45
+       ],
+       [
+        0.45,
+        0.45
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.81,
+        0.81
+       ],
+       [
+        3.9,
+        3.9
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.45,
+        0.45
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        22.63,
+        22.6
+       ],
+       [
+        25.05,
+        25.03
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.05,
+        1.05
+       ],
+       [
+        3.89,
+        3.74
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        8.94,
+        8.64
+       ],
+       [
+        7.54,
+        7.09
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        25.81,
+        25.79
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.52,
+        0.51
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.58,
+        1.57
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.78,
+        0.78
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        3.82,
+        3.66
+       ],
+       [
+        2.01,
+        1.86
+       ],
+       [
+        1.74,
+        1.74
+       ],
+       [
+        1.01,
+        0.86
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.15,
+        0.15
+       ],
+       [
+        1.37,
+        1.22
+       ],
+       [
+        4.53,
+        4.52
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        4.16,
+        4.14
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.15,
+        1.14
+       ],
+       [
+        3.17,
+        3.16
+       ],
+       [
+        4.6,
+        4.58
+       ],
+       [
+        0.71,
+        0.71
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        5.19,
+        5.17
+       ],
+       [
+        6.47,
+        6.3
+       ],
+       [
+        2.69,
+        2.68
+       ],
+       [
+        1.5,
+        1.5
+       ],
+       [
+        3.18,
+        3.16
+       ],
+       [
+        3.81,
+        3.65
+       ],
+       [
+        4.37,
+        4.35
+       ],
+       [
+        2.68,
+        2.53
+       ],
+       [
+        5.56,
+        5.4
+       ],
+       [
+        17.97,
+        17.92
+       ],
+       [
+        8.71,
+        8.53
+       ],
+       [
+        8.72,
+        8.7
+       ],
+       [
+        16.5,
+        16.3
+       ],
+       [
+        1.47,
+        1.32
+       ],
+       [
+        0.91,
+        0.76
+       ],
+       [
+        3.48,
+        3.18
+       ],
+       [
+        2.1,
+        2.1
+       ],
+       [
+        0.68,
+        0.53
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        1.43,
+        1.43
+       ],
+       [
+        3.29,
+        3.13
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        2.95,
+        2.94
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.29,
+        0.15
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.35,
+        0.35
+       ],
+       [
+        2.04,
+        2.04
+       ],
+       [
+        0.68,
+        0.68
+       ],
+       [
+        2.52,
+        2.51
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.61,
+        1.32
+       ],
+       [
+        0.91,
+        0.62
+       ],
+       [
+        3.03,
+        2.88
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.59,
+        0.3
+       ],
+       [
+        0.76,
+        0.47
+       ],
+       [
+        4.68,
+        4.52
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        15.2,
+        15.4
+       ],
+       [
+        1.94,
+        1.93
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        3.6,
+        3.44
+       ],
+       [
+        1.3,
+        1.15
+       ],
+       [
+        6.9,
+        6.59
+       ],
+       [
+        8.44,
+        8.41
+       ],
+       [
+        0.0,
+        0.0
+       ]
+      ]
+     },
+     {
+      "nome": {
+       "pt": "Outra temperatura (OISST, 0,25°)",
+       "en": "Other temperature (OISST, 0.25°)",
+       "es": "Otra temperatura (OISST, 0,25°)"
+      },
+      "papel": "alternativa",
+      "pontos": [
+       [
+        0.15,
+        0.67
+       ],
+       [
+        2.54,
+        3.5
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.25,
+        0.9
+       ],
+       [
+        0.54,
+        0.0
+       ],
+       [
+        2.04,
+        1.59
+       ],
+       [
+        0.0,
+        0.57
+       ],
+       [
+        0.46,
+        2.52
+       ],
+       [
+        0.15,
+        0.16
+       ],
+       [
+        0.0,
+        1.95
+       ],
+       [
+        1.62,
+        6.52
+       ],
+       [
+        0.93,
+        1.73
+       ],
+       [
+        2.5,
+        3.8
+       ],
+       [
+        0.0,
+        3.41
+       ],
+       [
+        0.0,
+        4.93
+       ],
+       [
+        1.14,
+        0.87
+       ],
+       [
+        0.82,
+        1.16
+       ],
+       [
+        1.69,
+        3.02
+       ],
+       [
+        1.99,
+        2.0
+       ],
+       [
+        1.89,
+        4.57
+       ],
+       [
+        0.0,
+        2.79
+       ],
+       [
+        1.32,
+        2.66
+       ],
+       [
+        0.0,
+        0.29
+       ],
+       [
+        1.69,
+        2.69
+       ],
+       [
+        8.61,
+        8.84
+       ],
+       [
+        8.66,
+        10.26
+       ],
+       [
+        0.33,
+        0.97
+       ],
+       [
+        0.47,
+        0.77
+       ],
+       [
+        5.98,
+        8.78
+       ],
+       [
+        4.13,
+        7.98
+       ],
+       [
+        3.88,
+        6.81
+       ],
+       [
+        1.48,
+        1.75
+       ],
+       [
+        5.93,
+        7.06
+       ],
+       [
+        6.57,
+        9.54
+       ],
+       [
+        4.85,
+        5.6
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.22,
+        1.17
+       ],
+       [
+        3.3,
+        1.91
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.39
+       ],
+       [
+        1.84,
+        0.89
+       ],
+       [
+        0.0,
+        0.6
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.16
+       ],
+       [
+        0.0,
+        0.16
+       ],
+       [
+        0.0,
+        0.15
+       ],
+       [
+        1.01,
+        1.42
+       ],
+       [
+        0.0,
+        0.17
+       ],
+       [
+        0.0,
+        0.82
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.32
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.45,
+        2.01
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.46,
+        0.82
+       ],
+       [
+        6.64,
+        7.59
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.15,
+        1.82
+       ],
+       [
+        0.43,
+        3.01
+       ],
+       [
+        0.15,
+        1.84
+       ],
+       [
+        0.0,
+        1.3
+       ],
+       [
+        0.0,
+        1.64
+       ],
+       [
+        3.59,
+        6.42
+       ],
+       [
+        0.0,
+        0.95
+       ],
+       [
+        1.66,
+        3.13
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        2.36,
+        0.0
+       ],
+       [
+        1.83,
+        0.85
+       ],
+       [
+        2.45,
+        0.64
+       ],
+       [
+        2.48,
+        2.85
+       ],
+       [
+        0.34,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.32,
+        0.0
+       ],
+       [
+        2.28,
+        8.36
+       ],
+       [
+        1.15,
+        4.24
+       ],
+       [
+        0.0,
+        2.66
+       ],
+       [
+        0.0,
+        0.73
+       ],
+       [
+        0.17,
+        2.01
+       ],
+       [
+        0.0,
+        2.23
+       ],
+       [
+        0.16,
+        0.15
+       ],
+       [
+        0.0,
+        1.02
+       ],
+       [
+        0.0,
+        0.59
+       ],
+       [
+        0.44,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.75,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.3,
+        0.0
+       ],
+       [
+        0.16,
+        2.48
+       ],
+       [
+        0.0,
+        0.47
+       ],
+       [
+        0.0,
+        0.3
+       ],
+       [
+        0.16,
+        0.0
+       ],
+       [
+        3.05,
+        1.04
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.14,
+        7.48
+       ],
+       [
+        1.53,
+        3.68
+       ],
+       [
+        0.0,
+        0.46
+       ],
+       [
+        7.59,
+        4.56
+       ],
+       [
+        1.03,
+        0.0
+       ],
+       [
+        2.24,
+        1.21
+       ],
+       [
+        19.18,
+        16.25
+       ],
+       [
+        5.03,
+        4.17
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.64,
+        0.17
+       ],
+       [
+        3.08,
+        5.79
+       ],
+       [
+        10.76,
+        18.05
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.31
+       ],
+       [
+        10.12,
+        10.55
+       ],
+       [
+        10.56,
+        11.38
+       ],
+       [
+        0.45,
+        4.84
+       ],
+       [
+        0.45,
+        4.04
+       ],
+       [
+        0.0,
+        1.84
+       ],
+       [
+        0.0,
+        2.44
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.81,
+        6.69
+       ],
+       [
+        3.9,
+        15.14
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.45,
+        5.57
+       ],
+       [
+        0.0,
+        3.42
+       ],
+       [
+        0.0,
+        1.99
+       ],
+       [
+        22.63,
+        24.73
+       ],
+       [
+        25.05,
+        26.97
+       ],
+       [
+        0.0,
+        1.17
+       ],
+       [
+        1.05,
+        4.79
+       ],
+       [
+        3.89,
+        9.74
+       ],
+       [
+        0.0,
+        0.45
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        8.94,
+        13.53
+       ],
+       [
+        7.54,
+        14.6
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        25.81,
+        27.92
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.17
+       ],
+       [
+        0.52,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.14
+       ],
+       [
+        0.0,
+        0.16
+       ],
+       [
+        1.58,
+        1.42
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        2.01,
+        3.85
+       ],
+       [
+        1.74,
+        5.5
+       ],
+       [
+        1.01,
+        1.2
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.15,
+        0.65
+       ],
+       [
+        1.37,
+        0.16
+       ],
+       [
+        4.53,
+        2.89
+       ],
+       [
+        0.0,
+        1.49
+       ],
+       [
+        4.16,
+        1.47
+       ],
+       [
+        0.0,
+        0.15
+       ],
+       [
+        1.15,
+        1.88
+       ],
+       [
+        3.17,
+        2.31
+       ],
+       [
+        4.6,
+        5.43
+       ],
+       [
+        0.71,
+        0.29
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        5.19,
+        5.12
+       ],
+       [
+        6.47,
+        9.4
+       ],
+       [
+        2.69,
+        4.26
+       ],
+       [
+        1.5,
+        5.13
+       ],
+       [
+        3.18,
+        3.63
+       ],
+       [
+        3.81,
+        4.01
+       ],
+       [
+        4.37,
+        5.69
+       ],
+       [
+        2.68,
+        3.66
+       ],
+       [
+        5.56,
+        8.78
+       ],
+       [
+        17.97,
+        20.03
+       ],
+       [
+        8.71,
+        11.56
+       ],
+       [
+        8.72,
+        8.88
+       ],
+       [
+        16.5,
+        18.85
+       ],
+       [
+        1.47,
+        0.48
+       ],
+       [
+        0.91,
+        0.15
+       ],
+       [
+        3.48,
+        0.83
+       ],
+       [
+        2.1,
+        0.99
+       ],
+       [
+        0.68,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.29,
+        0.16
+       ],
+       [
+        0.0,
+        0.67
+       ],
+       [
+        0.35,
+        0.69
+       ],
+       [
+        2.04,
+        0.81
+       ],
+       [
+        0.68,
+        0.0
+       ],
+       [
+        2.52,
+        1.63
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.61,
+        0.51
+       ],
+       [
+        0.91,
+        0.0
+       ],
+       [
+        3.03,
+        1.92
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.92
+       ],
+       [
+        0.59,
+        0.15
+       ],
+       [
+        0.76,
+        0.85
+       ],
+       [
+        4.68,
+        2.49
+       ],
+       [
+        0.3,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        15.2,
+        8.88
+       ],
+       [
+        1.94,
+        0.82
+       ],
+       [
+        0.0,
+        0.0
+       ],
+       [
+        3.6,
+        1.74
+       ],
+       [
+        1.3,
+        0.0
+       ],
+       [
+        6.9,
+        2.15
+       ],
+       [
+        8.44,
+        0.77
+       ],
+       [
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    ],
+    "leitura": {
+     "pt": "Cada ponto é um ano num dos 6 recifes de referência: com a temperatura oficial os pontos caem na diagonal; trocando o produto de temperatura, espalham-se.",
+     "en": "Each dot is one year at one of the 6 reference reefs: with the official temperature the dots sit on the diagonal; swap the temperature product and they scatter.",
+     "es": "Cada punto es un año en uno de los 6 arrecifes de referencia: con la temperatura oficial los puntos caen en la diagonal; al cambiar el producto de temperatura, se dispersan."
+    }
+   },
+   {
+    "tipo": "barras",
+    "titulo": {
+     "pt": "7 recifes estão no terço mais exposto com 90% de certeza; 13 ficam indefinidos",
+     "en": "7 reefs are in the most exposed third with 90% certainty; 13 are undetermined",
+     "es": "7 arrecifes están en el tercio más expuesto con 90% de certeza; 13 quedan indefinidos"
+    },
+    "eixo_x": {
+     "pt": "Recife, na ordem do ranking",
+     "en": "Reef, in ranking order",
+     "es": "Arrecife, en el orden del ranking"
+    },
+    "eixo_y": {
+     "pt": "Probabilidade de estar no terço mais exposto",
+     "en": "Probability of being in the most exposed third",
+     "es": "Probabilidad de estar en el tercio más expuesto"
+    },
+    "formato_x": "numero",
+    "formato_y": "percentual",
+    "series": [
+     {
+      "nome": {
+       "pt": "Probabilidade (bootstrap de anos)",
+       "en": "Probability (bootstrap over years)",
+       "es": "Probabilidad (bootstrap de años)"
+      },
+      "papel": "principal",
+      "pontos": [
+       [
+        "Ilha Darwin",
+        1.0
+       ],
+       [
+        "Ras Mohammed",
+        1.0
+       ],
+       [
+        "Bermudas",
+        0.999
+       ],
+       [
+        "Curaçao",
+        0.953
+       ],
+       [
+        "Glover's Reef",
+        0.871
+       ],
+       [
+        "Kimbe Bay",
+        0.997
+       ],
+       [
+        "Osprey Reef",
+        0.945
+       ],
+       [
+        "Scott Reef",
+        0.925
+       ],
+       [
+        "Looe Key",
+        0.588
+       ],
+       [
+        "Rock Islands",
+        0.848
+       ],
+       [
+        "Ningaloo (Coral Bay)",
+        0.72
+       ],
+       [
+        "Ilhas Farasan",
+        0.428
+       ],
+       [
+        "Great Astrolabe Reef",
+        0.501
+       ],
+       [
+        "Raja Ampat",
+        0.32
+       ],
+       [
+        "Ishigaki (lagoa Sekisei)",
+        0.172
+       ],
+       [
+        "Kiritimati",
+        0.295
+       ],
+       [
+        "Parcel de Manuel Luís",
+        0.205
+       ],
+       [
+        "Atol de Midway",
+        0.449
+       ],
+       [
+        "Lord Howe Island",
+        0.317
+       ],
+       [
+        "Lizard Island",
+        0.306
+       ],
+       [
+        "Atol das Rocas",
+        0.08
+       ],
+       [
+        "Nosy Be",
+        0.0
+       ],
+       [
+        "Fernando de Noronha",
+        0.029
+       ],
+       [
+        "Trindade",
+        0.002
+       ],
+       [
+        "Abrolhos",
+        0.016
+       ],
+       [
+        "Tubbataha",
+        0.0
+       ],
+       [
+        "Ilha do Coco",
+        0.0
+       ],
+       [
+        "Peros Banhos",
+        0.033
+       ],
+       [
+        "Ilha de Mafia",
+        0.0
+       ],
+       [
+        "Aldabra",
+        0.0
+       ],
+       [
+        "Davies Reef",
+        0.0
+       ],
+       [
+        "Heron Island",
+        0.0
+       ],
+       [
+        "Toliara",
+        0.0
+       ],
+       [
+        "Clipperton",
+        0.0
+       ],
+       [
+        "Atol de Kaafu (Malé)",
+        0.0
+       ],
+       [
+        "Baía de Kāneʻohe",
+        0.0
+       ],
+       [
+        "Sir Abu Nu'ayr",
+        0.0
+       ],
+       [
+        "Moorea",
+        0.0
+       ]
+      ]
+     }
+    ],
+    "leitura": {
+     "pt": "Exposição em 2005-2024 pelos anos com DHW de 4 e de 8 ou mais; o topo e o fundo são firmes, o meio não, e exposição térmica não é branqueamento.",
+     "en": "Exposure in 2005-2024 from years with DHW of 4 and of 8 or more; the top and bottom are firm, the middle is not, and thermal exposure is not bleaching.",
+     "es": "Exposición en 2005-2024 según los años con DHW de 4 y de 8 o más; la cima y el fondo son firmes, el medio no, y exposición térmica no es blanqueamiento."
+    }
+   },
+   {
+    "tipo": "linhas",
+    "titulo": {
+     "pt": "A 8 semanas, as previsões subestimam: o alerta vem mais vezes do que elas dizem",
+     "en": "At 8 weeks the forecasts run low: alerts come more often than predicted",
+     "es": "A 8 semanas, las previsiones se quedan cortas: la alerta llega más veces de lo que dicen"
+    },
+    "eixo_x": {
+     "pt": "Probabilidade prevista",
+     "en": "Predicted probability",
+     "es": "Probabilidad prevista"
+    },
+    "eixo_y": {
+     "pt": "Frequência observada",
+     "en": "Observed frequency",
+     "es": "Frecuencia observada"
+    },
+    "formato_x": "percentual",
+    "formato_y": "percentual",
+    "series": [
+     {
+      "nome": {
+       "pt": "Modelo simples",
+       "en": "Simple model",
+       "es": "Modelo simple"
+      },
+      "papel": "principal",
+      "pontos": [
+       [
+        0.0152,
+        0.0396
+       ],
+       [
+        0.0867,
+        0.2038
+       ],
+       [
+        0.2119,
+        0.3913
+       ],
+       [
+        0.3939,
+        0.5135
+       ],
+       [
+        0.5949,
+        0.6632
+       ],
+       [
+        0.773,
+        0.7489
+       ],
+       [
+        0.9522,
+        0.8475
+       ]
+      ]
+     },
+     {
+      "nome": {
+       "pt": "Persistência calibrada",
+       "en": "Calibrated persistence",
+       "es": "Persistencia calibrada"
+      },
+      "papel": "base",
+      "pontos": [
+       [
+        0.0151,
+        0.0519
+       ],
+       [
+        0.0875,
+        0.4942
+       ],
+       [
+        0.2183,
+        0.6391
+       ],
+       [
+        0.3878,
+        0.6508
+       ],
+       [
+        0.5916,
+        0.7066
+       ],
+       [
+        0.7731,
+        0.8105
+       ],
+       [
+        0.9524,
+        0.9234
+       ]
+      ]
+     },
+     {
+      "nome": {
+       "pt": "Calibração perfeita",
+       "en": "Perfect calibration",
+       "es": "Calibración perfecta"
+      },
+      "papel": "neutro",
+      "pontos": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     }
+    ],
+    "leitura": {
+     "pt": "Acima da diagonal, o evento acontece mais do que o previsto: a frequência do alerta foi de 2,9% no treino e de 14,9% no teste.",
+     "en": "Above the diagonal the event happens more often than predicted: the alert rate was 2.9% in training and 14.9% in the test period.",
+     "es": "Por encima de la diagonal, el evento ocurre más de lo previsto: la frecuencia de la alerta fue del 2,9% en el entrenamiento y del 14,9% en la prueba."
+    }
+   }
+  ]
  }
 }
